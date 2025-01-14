@@ -1,3 +1,22 @@
+# Ignore system directories
+AppData/
+Application Data/
+Cookies/
+Documents/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Ignore personal configuration files
+*.bash_history
+*.gitconfig
+*.lesshst
+
 # Ignore system files and directories
 .DS_Store
 .node_repl_history
@@ -25,27 +44,8 @@ ntuser.*
 saqlain/
 web development course/
 
-# Ignore personal configuration files
-*.bash_history
-*.gitconfig
-*.lesshst
-
-# Ignore system directories
-AppData/
-Application Data/
-Cookies/
-Documents/
-Local Settings/
-My Documents/
-NetHood/
-PrintHood/
-Recent/
-SendTo/
-Start Menu/
-Templates/
-
 # Ignore unnecessary files
-/.phpunit.cache
+.phpunit.cache
 /node_modules
 /public/build
 /public/hot
