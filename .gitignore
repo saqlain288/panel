@@ -1,3 +1,50 @@
+# Ignore system files and directories
+.DS_Store
+.node_repl_history
+.vscode/
+3D Objects/
+Contacts/
+Desktop/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+Music/
+NTUSER.*
+OneDrive/
+Pictures/
+Saved Games/
+Searches/
+Tracing/
+Videos/
+battery-report.html
+cd
+ntuser.*
+*.log
+*.ini
+saqlain/
+web development course/
+
+# Ignore personal configuration files
+*.bash_history
+*.gitconfig
+*.lesshst
+
+# Ignore system directories
+AppData/
+Application Data/
+Cookies/
+Documents/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Ignore unnecessary files
 /.phpunit.cache
 /node_modules
 /public/build
@@ -19,31 +66,4 @@ yarn-error.log
 /.fleet
 /.idea
 /.nova
-/.vscode
 /.zed
-
-# Ignore system directories
-AppData/
-Application Data/
-Cookies/
-Documents/
-Local Settings/
-My Documents/
-NetHood/
-PrintHood/
-Recent/
-SendTo/
-Start Menu/
-Templates/
-
-# Ignore personal configuration files
-*.bash_history
-*.gitconfig
-*.lesshst
-
-# Additional files to ignore
-.env
-node_modules/
-.DS_Store
-*.log
-
