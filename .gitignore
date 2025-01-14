@@ -1,3 +1,75 @@
+<<<<<<< HEAD
+# Ignore system directories
+AppData/
+Application Data/
+Cookies/
+Documents/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Ignore personal configuration files
+*.bash_history
+*.gitconfig
+*.lesshst
+
+# Ignore system files and directories
+.DS_Store
+.node_repl_history
+.vscode/
+3D Objects/
+Contacts/
+Desktop/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+Music/
+NTUSER.*
+OneDrive/
+Pictures/
+Saved Games/
+Searches/
+Tracing/
+Videos/
+battery-report.html
+cd
+ntuser.*
+*.log
+*.ini
+saqlain/
+web development course/
+
+# Ignore unnecessary files
+.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.nova
+/.zed
+=======
+>>>>>>> e3cb4968d9cc08bdb73a008f6195dc77ea5e7931
 # Ignore system directories
 AppData/
 Application Data/
