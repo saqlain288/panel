@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /.phpunit.cache
 /node_modules
 /public/build
@@ -21,3 +22,26 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+=======
+# Ignore system directories
+AppData/
+Application Data/
+Cookies/
+Documents/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+# Ignore personal configuration files
+*.bash_history
+*.gitconfig
+*.lesshst
+>>>>>>> f3989f9 (Add .gitignore file to ignore unnecessary files)
+.env
+node_modules/
+.DS_Store
+*.log
